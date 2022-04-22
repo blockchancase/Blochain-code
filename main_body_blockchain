@@ -261,6 +261,7 @@ def register_nodes():
     }
     return jsonify(response), 201
 
+#check way to chain
 
 @app.route('/nodes/resolve', methods=['GET'])
 def consensus():
@@ -279,6 +280,7 @@ def consensus():
 
     return jsonify(response), 200
 
+#Adding a block to check the correctness of the code
 
 if __name__ == '__main__':
     from argparse import ArgumentParser
