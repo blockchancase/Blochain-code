@@ -19,7 +19,7 @@ class Blockchain:
     def register_node(self, address):
         """
         Add a new node to the list of nodes
-        :param address: Address of node. Eg. 'http://192.168.0.5:5000'
+        :param address: Address of node. Main direction is URL to chain place
         """
 
         parsed_url = urlparse(address)
