@@ -120,7 +120,8 @@ class Blockchain:
         Creates a new transaction to go into the next mined Block
         :param sender: Address of the Sender
         :param recipient: Address of the Recipient
-        :param amount: Amount
+        :param amount: Amount of NFT or Cryptocurrency. If new tocken mined then amount += 1. 
+        Hook will help us get a cost of tocken for future honest transactions
         :return: The index of the Block that will hold this transaction
         """
         self.current_transactions.append({
