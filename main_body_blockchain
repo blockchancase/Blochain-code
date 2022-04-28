@@ -287,3 +287,28 @@ def consensus():
         #swap(frozwallet_sender, frozwallet_recepient)
         #wallet_sender += frozwallet_sender
         #wallet_recipient += frozwallet_recepient
+
+
+#view of blocks with info about transaction
+"""
+[
+    {
+        "data": [],
+        "timestamp": "1650308723",
+        "nonce": 0,
+        "hash": "041be051351d09b6d618b627a79257ec13defa491006766df0a440be5874b383",
+        "prevHash": null
+    },
+    {
+        "data": {
+            "from": "John",
+            "to": "Bob",
+            "amount": 100
+        },
+        "timestamp": "1650308723",
+        "nonce": 0,
+        "hash": "0ac1399758ded37767566b893e638925bc334cbd5d02341c3419811a0c110d6d",
+        "prevHash": "041be051351d09b6d618b627a79257ec13defa491006766df0a440be5874b383"
+    }
+]
+"""
