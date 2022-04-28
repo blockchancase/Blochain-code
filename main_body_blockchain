@@ -279,3 +279,10 @@ def consensus():
         }
 
     return jsonify(response), 200
+  #exchange NFT or cryptocurrency
+  #It will work when and only when a hook is made to the exchange. Taking into account the cost of each component of the exchange
+  #def exchange():
+    #if new_transaction():
+        #swap(frozwallet_sender, frozwallet_recepient)
+        #wallet_sender += frozwallet_sender
+        #wallet_recipient += frozwallet_recepient
